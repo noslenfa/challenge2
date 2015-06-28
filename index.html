@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>CHALLENGE 2</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+     <link rel="stylesheet" type="text/css" href="cssdist/all.css">
+    <script type="text/javascript" src="jsmin/all.js"></script>
+
+
+
+</head>
+<body>
+    <div id="wrapper" >
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" class="toggled">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <div class="sidebar-topelement">
+                        <img src="images/contact.png"><span>John Doe</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="sidebar-otherelement"><img src="images/ic-dashboard.svg"></div>
+                        <div class="sidebar-otherelement">Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="sidebar-otherelement"><img src="images/ic-accounts.svg"></div>
+                        <div class="sidebar-otherelement">Accounts</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="sidebar-otherelement"><img src="images/ic-cards.svg"></div>
+                        <div class="sidebar-otherelement">Cards</div>
+                    </a>
+                </li>
+                <li>
+                   <a href="#">
+                        <div class="sidebar-otherelement"><img src="images/ic-payments.svg"></div>
+                        <div class="sidebar-otherelement">Payments</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="sidebar-otherelement"><img src="images/ic-transfers.svg"></div>
+                        <div class="sidebar-otherelement">Transfers</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="sidebar-otherelement"><img src="images/ic-airtime.svg"></div>
+                        <div class="sidebar-otherelement">Airtime</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="sidebar-otherelement"><img src="images/ic-settings.svg"></div>
+                        <div class="sidebar-otherelement">Settings</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="backdrop"></div>
+            <div class="container-fluid">
+                <nav class="navbar navbar-default row">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <a class="navbar-brand pull-left" href="#menu-toggle" class="btn btn-default" id="menu-toggle"><img src="images/btn-collapse.png"></a>
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li id="nav-dashboard">Dashboard</li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+                <div class="row" id ="nav-balance">
+                    <!-- Carousel begins -->
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="col-xs-12" id="nav-balance1">Balance</div>
+                                <div class="col-xs-12" id="nav-balance2">N979153.36</div>
+                                <div class="col-xs-12" id="nav-balance3">16.500 SP</div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12" id="nav-balance1">Balance</div>
+                                <div class="col-xs-12" id="nav-balance2">N123456.78</div>
+                                <div class="col-xs-12" id="nav-balance3">20.320 SP</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel ends -->
+                </div>
+                <div class="row" id="nav-latesttransaction">
+                    <div class="col-xs-12">Latest Transactions</div>
+                </div>
+                <div class="container-fluid">
+                    <ul class="list-group row">
+                        <li class="row">
+                            <div class="col-xs-6">
+                                <div class="col-xs-12 list-data1">ATM Lagos</div>
+                                <div class="col-xs-12 list-data2">Today</div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="col-xs-12 list-data3r"><span class="pull-right">- N 450.00</span></div>
+                                <div class="col-xs-12 list-data4"><span class="pull-right">Bank Withdraw</span></div>
+                            </div>
+                        </li>
+                        <li class="row list-dark">
+                            <div class="col-xs-6">
+                                <div class="col-xs-12 list-data1">ATM Lagos</div>
+                                <div class="col-xs-12 list-data2">Yesterday</div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="col-xs-12 list-data3g"><span class="pull-right">+ N 450.00</span></div>
+                                <div class="col-xs-12 list-data4"><span class="pull-right">Bank Withdraw</span></div>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-xs-6">
+                                <div class="col-xs-12 list-data1">003 645 6548 65</div>
+                                <div class="col-xs-12 list-data2">01/06/2015</div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="col-xs-12 list-data3r"><span class="pull-right">- 100 SP</span></div>
+                                <div class="col-xs-12 list-data4"><span class="pull-right">Airtime recharge</span></div>
+                            </div>
+                        </li>
+                        <li class="row list-dark">
+                            <div class="col-xs-6">
+                                <div class="col-xs-12 list-data1">John Doe</div>
+                                <div class="col-xs-12 list-data2">31/05/2015</div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="col-xs-12 list-data3g"><span class="pull-right">+ N 450.00</span></div>
+                                <div class="col-xs-12 list-data4"><span class="pull-right">Transfer</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Menu Toggle Script -->
+<script>
+$("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+    if($( "#wrapper" ).hasClass( "toggled" )) {
+        $(".backdrop").show();
+    } else {
+        $(".backdrop").hide();
+    }
+});
+
+function swipeleft(){
+    $(".backdrop").hide();
+    $("#wrapper").toggleClass("toggled");
+}
+
+function swiperight(e){
+    e.preventDefault();
+    $(".backdrop").show();
+    $("#wrapper").toggleClass("toggled");
+}
+
+$( ".backdrop" ).on('click swipeleft', swipeleft);
+$( "#sidebar-wrapper" ).on('swipeleft', swipeleft);
+$( "#page-content-wrapper" ).on('swiperight', swiperight);
+
+
+</script>
+</body>
+</html>
