@@ -1,4 +1,4 @@
-# challenge2
+# Challenge 2 - seedstars
 
 ###### Install node_modules and project dependencies
 
